@@ -22,7 +22,7 @@ class HomePageState extends State<HomePage> {
   void getPolyPoint() async {
     PolylinePoints polylinePoints = PolylinePoints();
     PolylineResult rs = await polylinePoints.getRouteBetweenCoordinates(
-      'AIzaSyA25KbkRpwpyFJjuVD70M_vyzb60HJsE4s',
+      '',
       const PointLatLng(21.062862, 105.794082),
       const PointLatLng(21.062908, 105.8091),
       travelMode: TravelMode.driving,
